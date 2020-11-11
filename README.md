@@ -1,4 +1,4 @@
-ENQUIRIES.
+# ENQUIRIES. (React Native)
 
 -   Display left side placeholder with the first character of ‘name’ from the api.
 -   Second column to display information.
@@ -15,9 +15,9 @@ ENQUIRIES.
 
 ### Libraries used
 
-- React-Native
-- Redux
-- React Navigation
+-   React-Native
+-   Redux
+-   React Navigation
 
 ### Tools Used
 
