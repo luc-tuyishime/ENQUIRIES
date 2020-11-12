@@ -42,6 +42,10 @@
 
 `npm start`
 
+### Screenshot
+
+<img width="321" alt="Screen Shot 2020-11-12 at 15 33 13" src="https://user-images.githubusercontent.com/19607550/98948343-fd9ab600-24fe-11eb-9a1f-0927e43f3e6b.png">
+
 ## Contributor
 
 -   Jean Luc Tuyishime <luctunechi45@gmail.com>
