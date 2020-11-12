@@ -44,7 +44,7 @@
 
 ### Screenshot
 
-<img width="321" alt="Screen Shot 2020-11-12 at 15 33 13" src="https://user-images.githubusercontent.com/19607550/98948343-fd9ab600-24fe-11eb-9a1f-0927e43f3e6b.png">
+<img width="327" alt="Screen Shot 2020-11-12 at 23 38 47" src="https://user-images.githubusercontent.com/19607550/98999586-b59c8300-2540-11eb-8ce6-2f4f197655ac.png">
 
 ## Contributor
 
