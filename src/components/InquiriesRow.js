@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import { View, Text, TouchableOpacity, Alert, Linking, Platform } from "react-native";
+import { View, Text, TouchableOpacity, Linking, Platform } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
 import randomColor from "randomcolor";
 
 import RoundedName from "./roundedName";
+import { getTimeAgo } from "./getTimeAgo";
 
 import styles from "styles/InquiriesRow";
 
@@ -49,7 +50,13 @@ export default class InquiriesRow extends Component {
                             <Text style={styles.pAddress}>{place.location}</Text>
                             <Text style={styles.pAddress}>{place.classLocPref}</Text>
                         </View>
+
                         <View style={styles.edges}>
+                            <View style={styles.textRight}>
+                                <Text style={styles.textDate}>
+                                    {getTimeAgo(place.createdOn)}
+                                </Text>
+                            </View>
                             <TouchableOpacity onPress={this.phonePressed}>
                                 <Icon name="mobile" color={randomColor()} size={35} />
                             </TouchableOpacity>
