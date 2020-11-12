@@ -31,8 +31,14 @@ export default StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        padding: 5,
-        minWidth: 30
+        minWidth: 70
+    },
+
+    textDate: {
+        color: "#9e9e9e",
+        fontSize: 13,
+        position: "relative",
+        bottom: 5
     },
 
     nameAddress: {
